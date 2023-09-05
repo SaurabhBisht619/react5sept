@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --dark-text: #007bff; /* Replace with your desired color value */
+  --btn-color:brown;
+  --light-text:rgb(189, 26, 170);
+}
+
+/* css variable */
+/* primary */
+/* light-text */
+/* dark-text */

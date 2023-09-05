@@ -1,0 +1,38 @@
+.signInPage{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 2px solid #6703c4;
+}
+ 
+.topHeaders{
+    position: fixed;
+    bottom: 194px;
+    right: 0px;
+    width: 400px;
+	border-radius: 8px;
+	border-top: 8px solid #6703c4;
+}
+
+
+.inpField{
+    padding: 10px;
+    font-size: larger;
+}
+
+
+.textarea{
+    padding: 10px;
+    font-size: larger;
+}
+
+.mobileDiv-m{
+    height: 40px;
+    background-color: white;
+    margin: 25px;
+    border-radius: 10px;
+}

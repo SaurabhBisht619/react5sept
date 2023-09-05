@@ -1,0 +1,33 @@
+.btn1{
+    width: 12vw;
+    height: 5vh;
+    border: none;
+    bottom:70vh;
+    left: 74vw;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  .btnForm:hover{
+    background-color: rgb(48, 218, 21);
+   border-top-left-radius: 10px;
+  }
+
+  .btnForm{
+    position: fixed;
+    top: 45vh;
+    left:73vw
+  }
+
+
+  .btnContent{
+    position: fixed;
+    top: 45vh;
+    left: 85vw;
+  }
+  
+  
+  .btnContent:hover{
+    background-color: rgba(199, 22, 218, 0.688);
+    border-top-right-radius: 10px;
+  }

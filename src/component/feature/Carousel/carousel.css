@@ -1,0 +1,103 @@
+.sliderContainer {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 70px 20px;
+  }
+  
+  .prevBtn,
+  .nextBtn {
+    border: none;
+    background-color: var(--btn-color);
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: larger;
+    margin-top: 33vh;
+    border-radius: 8px;
+  }
+  
+  .sliderImage{
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .expandBtn{
+    z-index: 100;
+    background-color: rgb(32, 128, 212);
+    width: 100px;
+    height: 30px;
+  }
+
+.carousel{
+  width: 100%;
+  height: 55vh;
+  display: flex;
+}
+
+.addBtn{
+  width: 100%;
+  height: 5vh;
+  font-size: larger;
+  cursor: pointer;
+  background-color:var(--btn-color);
+  border: none;
+  color: white;
+}
+
+
+.images{
+  display: flex;
+  width: 80vw;
+}
+
+
+.carouselImage{
+  width: 50%;
+  height: 30vw;
+}
+
+.portalImage{
+  width: 100vw;
+  height: 90vh;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  display: none;
+}
+
+.image-container:hover .hover-message {
+  display: block;
+}
+
+
+.images{
+  width: 400px ;
+  height: 400px;
+  cursor: pointer;
+}
+
+

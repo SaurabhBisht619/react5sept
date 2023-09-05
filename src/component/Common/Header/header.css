@@ -1,0 +1,17 @@
+.headerContent{
+  background: linear-gradient(to bottom, #5c8ceb, #e5d9d7);
+    padding: 10px;
+    text-align: center;
+    word-spacing: 30px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    color: rgb(83, 62, 62);
+    
+  }
+
+  .header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+  }
